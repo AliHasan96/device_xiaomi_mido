@@ -1,4 +1,4 @@
-#
+
 # Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -27,8 +27,7 @@ TARGET_CPU_VARIANT := cortex-a53
 
 # Kernel
 TARGET_KERNEL_CONFIG := mido_defconfig
-TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 7.0.2
+TARGET_USE_SDCLANG := false
 
 # Lineage Hardware
 BOARD_HARDWARE_CLASS += \
